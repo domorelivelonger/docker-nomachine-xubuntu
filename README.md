@@ -1,6 +1,6 @@
 
-# docker-ubuntu-mate-desktop-nomachine 7.10
-Ubuntu Desktop 20.04 (MATE) Dockerfile with NoMachine 7.10 remote access
+# docker-ubuntu-xubuntu-desktop-nomachine 7.10
+Ubuntu Desktop 22.04 (XFCE4) Dockerfile with NoMachine 7.10 remote access
 
 There are three tags available:
 
