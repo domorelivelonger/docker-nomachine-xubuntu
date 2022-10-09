@@ -9,7 +9,7 @@ EXPOSE 22 4000
 RUN apt update -y && apt install -y aptitude && aptitude dist-upgrade --purge-unused -y && aptitude clean
 RUN apt install -y software-properties-common python3-software-properties sudo
 
-RUN apt install -y vim xterm tilix
+RUN apt install -y vim xterm 
 RUN apt install -y ssh openssh-server
 RUN apt install -y nano curl wget
 

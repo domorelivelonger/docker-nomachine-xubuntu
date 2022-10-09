@@ -1,0 +1,16 @@
+version: '3.5'
+services:
+  xubuntu:
+    build:
+      context: .
+    shm_size: '4gb'
+    image: domorelivelonger/docker-nomachine-xubuntu            
+    environment:
+    - PASSWORD=password
+    - USER=user
+    cap_add:
+    - SYS_PTRACE
+    stdin_open: true
+    tty: true
+    ports:
+    - 4000:4000/tcp
